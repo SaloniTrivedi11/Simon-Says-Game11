@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: #ffedfa;
+}
+
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    /*border: 2px solid black;*/
+    margin: 1rem;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.one {
+    background-color: #ff0084;
+    box-shadow: 2px 2px 10px black;
+}
+.one:hover {
+    background-color: #ff1e92;
+    box-shadow: 2px 2px 10px rgb(100, 100, 100);
+}
+
+.two {
+    background-color: #d9ff00;
+    box-shadow: 2px 2px 10px black;
+}
+.two:hover {
+    background-color: #ddff1d;
+    box-shadow: 2px 2px 10px rgb(100, 100, 100);
+}
+
+.three {
+    background-color: #00ddff;
+    box-shadow: 2px 2px 10px black;
+}
+.three:hover {
+    background-color: #1fe1ff;
+    box-shadow: 2px 2px 10px rgb(100, 100, 100);
+}
+
+.four {
+    background-color: #001aff;
+    box-shadow: 2px 2px 10px black;
+}
+.four:hover {
+    background-color: #2138ff;
+    box-shadow: 2px 2px 10px rgb(100, 100, 100);
+}
+
+.one.flash,
+.two.flash,
+.thress.flash,
+.four.flash {
+    background-color: white;
+}
